@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.calculoborracha.view.MenuFragment"
+        android:label="Calculo Borracha"
+        tools:layout="@layout/fragment_menu">
+        <action
+            android:id="@+id/action_menuFragment_to_pesoFragment"
+            app:destination="@id/pesoFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_menuFragment_to_valorFragment"
+            app:destination="@id/valorFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/pesoFragment"
+        android:name="com.example.calculoborracha.view.PesoFragment"
+        android:label="Calculo Borracha"
+        tools:layout="@layout/fragment_peso">
+        <action
+            android:id="@+id/action_pesoFragment_to_menuFragment"
+            app:destination="@id/menuFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/valorFragment"
+        android:name="com.example.calculoborracha.view.ValorFragment"
+        android:label="Calculo Borracha"
+        tools:layout="@layout/fragment_valor">
+        <action
+            android:id="@+id/action_valorFragment_to_menuFragment"
+            app:destination="@id/menuFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+</navigation>

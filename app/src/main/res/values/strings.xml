@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Calculo Borracha</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_options_text">Escolha uma opção abaixo:</string>
+    <string name="calcular_peso">Calcular Peso</string>
+    <string name="calcular_valor">Calcular Valor</string>
+    <string name="calculo_de_peso_de_borracha">CALCULO DE PESO DE BORRACHA</string>
+    <string name="di_metro_da_borracha">Diâmetro da Borracha:</string>
+    <string name="epdm_silicone_neoprene">EPDM / Silicone / Neoprene</string>
+    <string name="x_300">X - 300</string>
+    <string name="capa">Capa</string>
+    <string name="quilos">Quilos:</string>
+    <string name="aguardando_medidas">Aguardando medidas</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="limpar_campos">limpar campos</string>
+    <string name="calculo_de_pre_o">CALCULO DE PREÇO</string>
+    <string name="comprimento_da_borracha">Comprimento da borracha:</string>
+    <string name="selecione_o_tipo_de_borracha">Selecione o tipo de Borracha:</string>
+    <string name="nitr_lica">Nitrílica</string>
+    <string name="servi_os_extras">Serviços Extras:</string>
+    <string name="canais">Canais</string>
+    <string name="retifica">Retifica</string>
+    <string name="pre_o_do_quilo">Preço do Quilo:</string>
+    <string name="valor_do_revestimento">Valor do revestimento:</string>
+    <string name="_0_00">0,00</string>
+</resources>
