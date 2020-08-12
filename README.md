@@ -1,5 +1,5 @@
 # Calculo_Borracha
-# Direitos autorias do app original - Rubens M.A @rubaoma
+# Direitos autorais do app original - Rubens M.A @rubaoma
 Projeto de calculo de borracha para a industria, inspirado no app feito em Java https://github.com/rubaoma/calculoBorracha
 
 
